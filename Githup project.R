@@ -66,7 +66,7 @@ ggplot(gapminder_1952, aes(x = pop, y = lifeExp)) +
 
 ggplot(gapminder_1952, aes(x= pop, y= gdpPercap)) + geom_point() + scale_x_log10() + scale_y_log10()
 
-# Adding color to a scatter plot ---- 
+# Adding color to a scatter plot ----
 
 # In this lesson you learned how to use the color aesthetic, 
 #which can be used to show which continent each point in a scatter plot represents.
